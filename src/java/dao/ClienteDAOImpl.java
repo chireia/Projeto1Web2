@@ -20,7 +20,7 @@ public class ClienteDAOImpl implements ClienteDAO {
             em.persist(cliente);
         }
         em.getTransaction().commit();
-        em.clear();
+        em.close();
     }
 
     public void delete(Cliente cliente) {
