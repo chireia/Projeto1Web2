@@ -7,7 +7,7 @@
 
 
 
-<input type="text" id="${id}" nome="${nome}" class="${classe}" value="${valor}"/>
+<input type="text" id="${id}" name="${nome}" class="${classe}" value="${valor}"/>
 
 <script src="resources/js/jquery.mask.min.js"></script>
 <script>
